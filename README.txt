@@ -1,13 +1,4 @@
-Mlynek – nová pracovní verze
-
-Obsah:
-- česká jednostránka
-- automatické počítadlo: +1 otočka každé 3 sekundy
-- souřadnice 50°50'35.690"N, 14°48'25.478"E
-- světlý vzhled
-- bez videa a bez závislosti na externích službách
-
-Pro GitHub Pages:
-1. Rozbalte ZIP.
-2. Nahrajte obsah složky Mlynek do repozitáře Mlynek.
-3. Zapněte Settings -> Pages -> Deploy from branch -> main -> /(root).
+Mlynek v4
+Počítadlo se po obnovení stránky nerestartuje. Vychází z času spuštění 29. 7. 2026 v 16:31 a počítá 1 otočku každé 3 sekundy.
+Pro fotografické pozadí vložte fotografii skutečného mlýnku do images/ jako mlynek.jpg.
+Poznámka: tato verze počítá podle hodin zařízení návštěvníka. Pro jedno společné počítadlo pro všechny návštěvníky je potřeba serverové uložení.

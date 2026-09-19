@@ -1,7 +1,1 @@
-let rotations = 0;
-const counter = document.getElementById("counter");
-function tick() {
-  rotations += 1;
-  counter.textContent = rotations.toLocaleString("cs-CZ");
-}
-setInterval(tick, 3000);
+const start=new Date("2026-07-29T16:31:00+02:00");const el=document.getElementById("counter");function update(){const n=Math.max(0,Math.floor((Date.now()-start.getTime())/3000));el.textContent=n.toLocaleString("cs-CZ")}update();setInterval(update,1000);
